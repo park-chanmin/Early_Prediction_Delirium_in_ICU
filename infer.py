@@ -122,7 +122,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Model Inference")
     parser.add_argument(
         "--config",
-        default="/VOLUME/project/saveu/save-u-d_deployment/clinical_trial/config/infer_config.yml",
+        default="./config/infer_config.yml",
         help="config file",
     )
 
